@@ -34,8 +34,6 @@ The usdt variable in the code indicates the size of the position you will open. 
 The isIsolated part should remain true if you want to open an isolated trade. If you do not include it, your position will be opened as cross.
 
 
-
-
 Trading View Alert oluşturma:
 
 Trade yapacağınız pair'i seçtikten sonra alert oluşturun modelinizi ayarladıktan sonra "once per bar close" butonunu seçin aşağıdaki alana json olarak aşağıda verdiğim bilgileri yapıştırın.
@@ -48,4 +46,6 @@ Trade yapacağınız pair'i seçtikten sonra alert oluşturun modelinizi ayarlad
   "time": "{{time}}",
 }
 
-Sonra bildirimler sekmesine geçin ve webhook url kısmını aktif edin aşağısındaki url kısmına app'in çalıştığı 
+Sonra bildirimler sekmesine geçin ve webhook url kısmını aktif edin aşağısındaki url kısmına app'in çalıştığı url'e istek atacak şekilde ayarlayın.
+
+ngrok kullanıyorum oldukça kolay https'li bir endpoint veriyor localhost'a request yasağı var o yüzden bi url olmalı.
