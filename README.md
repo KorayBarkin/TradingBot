@@ -12,8 +12,11 @@ python app.py
 TR
 
 -- Binance api key alıp margin ve futures check boxlarını aktif etmeniz gerekiyor.
+
 -- Telegramdan bot oluşturduktan sonra mesajlaşabilmek için bota ilk önce bir mesaj yazmanız gerekiyor (/start dedikten sonra)
+
 -- Kodun içerisindeki usdt variable'ı sizin açacağınız pozisyonun büyüklüğünü gösterir örneğin usdt = 300 yapıp change leverage'dan kaldıracı da 10x yaparsanız 30 dolarlık bir pozisyon açılır 30x10 = 300 şeklinde işliyor.
+
 -- isIsolated kısmı izole işlem açmak istiyorsanız true olarak kalmalı eklemezseniz pozisyonunuz cross açılacaktır.
 
 ENG
