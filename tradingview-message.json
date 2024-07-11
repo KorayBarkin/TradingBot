@@ -1,0 +1,10 @@
+{
+  "ticker": "{{ticker}}",
+  "exchange": "{{exchange}}",
+  "price": "{{strategy.order.price}}",
+  "side": "{{strategy.order.comment}}",
+  "telegramBotApi": "TELEGRAM BOT API",
+  "telegramUserId": "TELEGRAM USER ID",
+  "binanceApiKey":"ENTER YOUR BINANCE API KEY",
+  "binanceSecretKey": "ENTER YOUR BINANCE SECRET KEY"
+}
